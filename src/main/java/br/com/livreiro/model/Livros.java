@@ -31,8 +31,7 @@ public class Livros {
 
   public Livros(){}
 
-  public Livros(long id, String titulo, String descricao, String editora, String autor, String isbn) {
-    this.id = id;
+  public Livros(String titulo, String descricao, String editora, String autor, String isbn) {
     this.titulo = titulo;
     this.descricao = descricao;
     this.editora = editora;
